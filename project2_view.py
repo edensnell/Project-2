@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'project2_view.ui'
+# Form implementation generated from reading ui file 'Project-2/project2_view.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -75,7 +75,7 @@ class Ui_mainWindow(object):
         font.setPointSize(10)
         self.textEdit_chances.setFont(font)
         self.textEdit_chances.setReadOnly(True)
-        self.textEdit_chances.setMarkdown("")
+        self.textEdit_chances.setProperty("markdown", "")
         self.textEdit_chances.setObjectName("textEdit_chances")
         self.pushButton_word = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_word.setGeometry(QtCore.QRect(420, 300, 150, 30))
@@ -159,7 +159,7 @@ class Ui_mainWindow(object):
         self.label_head.setMinimumSize(QtCore.QSize(50, 50))
         self.label_head.setMaximumSize(QtCore.QSize(80, 170))
         self.label_head.setText("")
-        self.label_head.setPixmap(QtGui.QPixmap("../../OneDrive/Desktop/32341.png"))
+        self.label_head.setPixmap(QtGui.QPixmap("32341.png"))
         self.label_head.setScaledContents(True)
         self.label_head.setObjectName("label_head")
         self.line_body = QtWidgets.QFrame(self.centralwidget)
@@ -173,7 +173,7 @@ class Ui_mainWindow(object):
         self.label_rightarm.setMinimumSize(QtCore.QSize(50, 50))
         self.label_rightarm.setMaximumSize(QtCore.QSize(50, 50))
         self.label_rightarm.setText("")
-        self.label_rightarm.setPixmap(QtGui.QPixmap("../../OneDrive/Desktop/backward-slash.png"))
+        self.label_rightarm.setPixmap(QtGui.QPixmap("backward-slash.png"))
         self.label_rightarm.setScaledContents(True)
         self.label_rightarm.setObjectName("label_rightarm")
         self.label_rightleg = QtWidgets.QLabel(self.centralwidget)
@@ -181,7 +181,7 @@ class Ui_mainWindow(object):
         self.label_rightleg.setMinimumSize(QtCore.QSize(50, 50))
         self.label_rightleg.setMaximumSize(QtCore.QSize(50, 50))
         self.label_rightleg.setText("")
-        self.label_rightleg.setPixmap(QtGui.QPixmap("../../OneDrive/Desktop/backward-slash.png"))
+        self.label_rightleg.setPixmap(QtGui.QPixmap("backward-slash.png"))
         self.label_rightleg.setScaledContents(True)
         self.label_rightleg.setObjectName("label_rightleg")
         self.label_leftarm = QtWidgets.QLabel(self.centralwidget)
@@ -189,7 +189,7 @@ class Ui_mainWindow(object):
         self.label_leftarm.setMinimumSize(QtCore.QSize(50, 50))
         self.label_leftarm.setMaximumSize(QtCore.QSize(50, 50))
         self.label_leftarm.setText("")
-        self.label_leftarm.setPixmap(QtGui.QPixmap("../../OneDrive/Desktop/foward-slash.png"))
+        self.label_leftarm.setPixmap(QtGui.QPixmap("foward-slash.png"))
         self.label_leftarm.setScaledContents(True)
         self.label_leftarm.setObjectName("label_leftarm")
         self.label_leftleg = QtWidgets.QLabel(self.centralwidget)
@@ -197,7 +197,7 @@ class Ui_mainWindow(object):
         self.label_leftleg.setMinimumSize(QtCore.QSize(50, 50))
         self.label_leftleg.setMaximumSize(QtCore.QSize(50, 50))
         self.label_leftleg.setText("")
-        self.label_leftleg.setPixmap(QtGui.QPixmap("../../OneDrive/Desktop/foward-slash.png"))
+        self.label_leftleg.setPixmap(QtGui.QPixmap("foward-slash.png"))
         self.label_leftleg.setScaledContents(True)
         self.label_leftleg.setObjectName("label_leftleg")
         self.label_face = QtWidgets.QLabel(self.centralwidget)
@@ -205,7 +205,7 @@ class Ui_mainWindow(object):
         self.label_face.setMinimumSize(QtCore.QSize(30, 30))
         self.label_face.setMaximumSize(QtCore.QSize(30, 30))
         self.label_face.setText("")
-        self.label_face.setPixmap(QtGui.QPixmap("../../OneDrive/Desktop/download.png"))
+        self.label_face.setPixmap(QtGui.QPixmap("download.png"))
         self.label_face.setScaledContents(True)
         self.label_face.setAlignment(QtCore.Qt.AlignCenter)
         self.label_face.setObjectName("label_face")

@@ -207,9 +207,6 @@
     <property name="readOnly">
      <bool>true</bool>
     </property>
-    <property name="markdown">
-     <string/>
-    </property>
     <property name="html">
      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -219,6 +216,9 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="placeholderText">
      <string>___ / 7</string>
+    </property>
+    <property name="markdown" stdset="0">
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_word">
@@ -488,7 +488,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Desktop/32341.png</pixmap>
+     <pixmap>32341.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -538,7 +538,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Desktop/backward-slash.png</pixmap>
+     <pixmap>backward-slash.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -569,7 +569,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Desktop/backward-slash.png</pixmap>
+     <pixmap>backward-slash.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -600,7 +600,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Desktop/foward-slash.png</pixmap>
+     <pixmap>foward-slash.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -631,7 +631,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Desktop/foward-slash.png</pixmap>
+     <pixmap>foward-slash.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -662,7 +662,7 @@ p, li { white-space: pre-wrap; }
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../OneDrive/Desktop/download.png</pixmap>
+     <pixmap>download.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
